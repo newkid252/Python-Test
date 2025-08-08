@@ -1,0 +1,16 @@
+operator=input("Enter an Operator(+,-,*,/): ")
+num1=eval(input("Enter the 1st Number: "))
+num2=eval(input("Enter the 2nd Number: "))
+
+if operator == '+':
+    ans = num1 + num2
+    print("Result: ",ans,sep='')
+elif operator == '-':
+    ans = num1 - num2
+    print("Result: ",ans,sep='')
+elif operator == '*':
+    ans = num1 * num2
+    print("Result: ",ans,sep='')
+else:
+    ans = num1 / num2
+    print("Result: ",ans,sep='')
